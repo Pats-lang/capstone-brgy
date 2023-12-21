@@ -1,0 +1,44 @@
+ /* default datatable button styles  */
+ .dataTables_wrapper .dt-buttons button {
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.dataTables_wrapper .dt-buttons button:hover {
+    background-color: orange !important;
+}
+
+.dataTables_wrapper .dt-buttons .buttons-copy {
+    background-color: gray;
+}
+
+.dataTables_wrapper .dt-buttons .buttons-excel {
+    background-color: green;
+}
+
+.dataTables_wrapper .dt-buttons .buttons-pdf {
+    background-color: blue;
+}
+
+.dataTables_wrapper .dt-buttons .buttons-colvis {
+    background-color: darkgray;
+}
+
+.dataTables_wrapper .dt-button-collection .buttons-columnVisibility {
+    color: black;
+}
+
+.dataTables_wrapper .dt-button-collection .buttons-columnVisibility:hover {
+    color: white;
+}
+
+.dataTables_wrapper .dt-buttons .add-btn {
+    background-color: darkgreen;
+}
+
+.dataTables_wrapper .dt-buttons .print-btn {
+    background-color: darkgreen;
+}
+
+ /* default datatable button styles  */

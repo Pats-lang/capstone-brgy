@@ -1,0 +1,24 @@
+Client 
+1. Homepage layout is not syncing to main layout when navigated to about, projects, contact us, and etc.
+2. Register Now bug, overall registrating is not finished
+3. Projects UI bug, unable to navigate throughout the gallery
+4. Contact Us, what it is really for? only for questions and other inquiries? does the ALUMNI ID included?
+5. ALL GUI SHOULD BE FINILIZED.
+
+Admin
+1. Empty Dashboard, no expected layout.
+2. Manage Client Page:
+    2.1. Announcements, somehow good?
+    2.2. Board of Directors, templated but no real value
+    2.3. Projects, templated but no real value 
+    2.4. History, templated but no real value
+    2.5. Questions, templated but no real value
+3. Alumni Members:
+    3.1. Main Campus, almost perfect but the add fields in more information is buggy.
+    3.1. North Campus, almost perfect but the add fields in more information is buggy.
+4. System Administrators, good but the password hash should be deleted,
+    4.1. Role for Super admin and junior admin is not yet implemented some feature in ADMIN GUI should be modified depending on who uses the system.
+5. Alumni Id Inquiries, templated but no content
+6. Sales Reports, templated but no content
+7. Settings, no functions
+8. Change logs, templated but no content

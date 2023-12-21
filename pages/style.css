@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+.custom-border {
+    border: 2px solid black;
+    /* Add a 2px black border */
+    padding: 15px;
+    /* Add padding for better spacing */
+}
+
+#idcontain {
+    background-color: black;
+    padding: 20px;
+}
+
+.id-card {
+    width: 3.5in;
+    height: 2in;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: url('../assets/images/alum.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Arrange child elements in a column */
+    position: relative;
+    /* Set position to relative for absolute positioning */
+}
+
+.id-card .member-id{
+    margin-left: 192px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    margin-top: -33px;
+    /* Adjust font size as needed */
+}
+
+
+.id-card img {
+    width: 80px;
+    /* Adjust the width as needed */
+    height: 80px;
+    /* Adjust the height as needed */
+    position: absolute;
+    /* Set position to absolute for specific positioning */
+    margin-top: 80px;
+    /* Adjust the top distance as needed */
+    left: 30px;
+    /* Adjust the left distance as needed */
+}
+
+.id-back {
+    width: 3.5in;
+    height: 2in;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: url('../assets/images/back.png');
+    width:50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Arrange child elements in a column */
+    position: relative;
+    /* Set position to relative for absolute positioning */
+}
+
+
+
+
+
+
+.profile-signature {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 5px;
+    
+    
+    margin-left: 120px;
+}
+
+
+.member-address {
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-top: -120px;
+    /* Adjust the top margin as needed */
+}
+
+.member-bday {
+    margin-left: 77px;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    /* Adjust the top margin as needed */
+}
+
+.member-course {
+    margin-left: 220px;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 120px;
+}
